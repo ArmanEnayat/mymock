@@ -26,7 +26,7 @@ html, body{
    */
    
    /*background: linear-gradient(45deg, rgba(248, 255, 0, 0.2) 0%, rgba(58, 213, 159, 0.2) 100%),
-  url("../images/back8.jpg");/*
+  url("../images/back8.jpg");/*/
 
 /* Global Tags */
 
@@ -1050,6 +1050,11 @@ footer{
 }
 
 @media (max-width: 475px) {
+
+    nav .nav ul{
+        width: 48vw;
+    }
+
     #register{
         display: flex;
         flex-direction: column;
